@@ -15,15 +15,15 @@ class Config(object):
     # set this value with your name
     ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
     # Get the values for following 2 from my.telegram.org
-    APP_ID = int(os.environ.get("APP_ID", 6))
-    API_HASH = os.environ.get("API_HASH") or None
+    APP_ID = int(os.environ.get("15855531", 6))
+    API_HASH = os.environ.get("31e0b87de4285ebff259e003f58bf469") or None
     # Datbase url heroku sets it automatically else get this from elephantsql
-    DB_URI = os.environ.get("DATABASE_URL", None)
+    DB_URI = os.environ.get("mongodb+srv://Devilharsha:Devilharsha@cluster0.exwkd.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", None)
     # Get this value by running python3 stringsetup.py or https://repl.it/@sandeep1709/generatestringsession
-    STRING_SESSION = os.environ.get("STRING_SESSION", None)
+    STRING_SESSION = os.environ.get("1BVtsOMABu6OXr8Cc55nbqq2UgfskIgw-NNupVHW65PQ98XRvg4Fi_a6gHQE8xGz3VRPcixdx9ambahFIp2m6wRAjd2lAvwNnwD8vmQjatNnHyIAuNZjf-jteGvJPww6iLVssU9N7rASyThAGeJB2mdTu3aas3GHemVd8juXVO9xOnyY6Kx3P_daYOiyg5GZ5SXUwgou0uO1Ad1Jt_M8vDPJzotqFvngiHt-0VOktoPlacf5s9FHmzH7vif5NiVpPU1Y5DT30RVedpXKOjgocp_r0vEQVQHHbXhi6VpVPQuOykjsXO9axPnbgEN_REzT6g4sbC7yN2MJm3NfPf-lJhzkN4mfQsMY=", None)
     # Telegram BOT Token and bot username from @BotFather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN") or os.environ.get(
-        "TG_BOT_TOKEN_BF_HER", None
+    TG_BOT_TOKEN = os.environ.get("5317920065:AAGWadLJ4IfcGqANBR3Yes4QUflJXaHvJ7o") or os.environ.get(
+        "@Tonyusergebot", None
     )
     TG_BOT_USERNAME = None
     # get this value from http://www.timezoneconverter.com/cgi-bin/findzone.tzc
